@@ -13,7 +13,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: 'Lora';
+  font-family: 'Lora', sans-serif;
   font-weight: 800;
   font-style: normal;
   color: #232323;
@@ -39,7 +39,7 @@ h6 {
       }
 
       .b{
-        family-font:'Lora';
+        font-family:'Lora', sans-serif;
 
       }
 
@@ -60,7 +60,7 @@ h6 {
         font-family:'Lora';
       }
       footer ul li a {
-        font-family: 'Lora';
+        font-family:'Lora', sans-serif;
         font-weight: 300;
         font-style: normal;
         font-size: 14px;
@@ -119,7 +119,7 @@ h6 {
       }
       footer .col-1 address {
         margin-top: 60px;
-        font-family: 'Lora';
+        font-family:'Lora', sans-serif;
         font-weight: 300;
         font-style: normal;
         font-size: 13px;
@@ -139,7 +139,7 @@ h6 {
       footer .col-2 {
         width: 35%;
         float: right;
-        font-family:'Lora';
+        font-family:'Lora', sans-serif;
       }
       @media (max-width: 999px) {
         footer .col-2 {
@@ -151,7 +151,7 @@ h6 {
         padding: 15px 25px 17px 0;
         float: right;
         border-bottom: 1px solid #414141;
-        font-family:'Lora';
+        font-family:'Lora', sans-serif;
       }
       @media (max-width: 999px) {
         footer .col-2 .links {
