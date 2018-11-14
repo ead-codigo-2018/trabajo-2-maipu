@@ -17,67 +17,11 @@ h6 {
   font-weight: 800;
   font-style: normal;
   color: #232323;
-
-.header{
-			margin:10px;
-      padding:5px;
-			width:195px;
-			font-family:Lato;
-}
-
-h1{
-   padding:5px;
-   float:left;
-  font-family:Lato;
-}
-
-h2{
-  text-align:right;
-}
-
-.nav {
-     width:1400px; /*Le establecemos un ancho*/
-     margin:left; /*Centramos automaticamente*/
-     font-family:Lato;
-}
-
-.nav > li{
-				 float:left;
-         text-align:center;
-         width:195px;
-}
-
-.nav li a{
-				 background-color:#000;
-				 color:#fff;
-				 text-decoration:none;
-				 padding:15px 2px;
-				 display:block;
+  justify-content: center;
+  padding:10px;
 }
 
 
-.nav li ul{
-				  display:none;
-				  position:absolute;
-				  min-width:195px;
-}
-
-.nav li:hover > ul{
-				  display:block;
-}
-
-.nav li ul li{
-				  position:relative;
-}
-
-.nav li ul li ul{
-				right:-140px;
-				top:0px;
-			}
-
-
-
-      }
       hr {
         width: 100%;
         margin: 15px 0;
@@ -123,6 +67,7 @@ h2{
         color: #fff;
         line-height: 28px;
         text-decoration:none;
+        padding:10px;
       }
       footer ul li a:hover {
         color: #0fbbd4;
@@ -255,4 +200,43 @@ h2{
       footer .col-2 .links a {
         float: right;
         display: block;
+      }
+      /* Tooltip Top */
+      a.tooltips-top {
+        position: relative;
+        display: inline;
+      }
+      a.tooltips-top span {
+        position: absolute;
+        width: 200px;
+        padding: 0 10px;
+        color: #FFFFFF;
+        background: #000000;
+        height: 27px;
+        line-height: 27px;
+        text-align: center;
+        display: none;
+        border-radius: 6px;
+      }
+      a.tooltips-top span:after {
+        content: '';
+        position: absolute;
+        top: 100%;
+        left: 50%;
+        margin-left: -8px;
+        width: 0;
+        height: 0;
+        border-top: 8px solid #000000;
+        border-right: 8px solid transparent;
+        border-left: 8px solid transparent;
+      }
+      a:hover.tooltips-top span {
+        display: block;
+        opacity: 0.7;
+        -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=70)";
+        filter: alpha(opacity=70);
+        bottom: 30px;
+        left: -52%;
+        margin-left: -76px;
+        z-index: 999;
       }
