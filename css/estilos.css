@@ -3,16 +3,20 @@
   padding: 0;
 }
 
-body{
-     margin:0;
-		 padding:0;
+body {
+  margin: 0;
+  padding: 0;
 }
-
-.container{
-  max-width:100%;
-  margin-left: auto;
-  margin-right: auto;
-}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: 'Lora';
+  font-weight: 800;
+  font-style: normal;
+  color: #232323;
 
 .header{
 			margin:10px;
@@ -70,3 +74,185 @@ h2{
 				right:-140px;
 				top:0px;
 			}
+
+
+
+      }
+      hr {
+        width: 100%;
+        margin: 15px 0;
+        border-color: #e5e5e5;
+      }
+      .container {
+        width: 100%;
+        max-width: 1232px;
+        margin:15px;
+        padding:15px;
+      }
+
+      .clearfix{
+        clear:left;
+      }
+
+      .b{
+        family-font:'Lora';
+
+      }
+
+      footer {
+        padding-top: 50px;
+        background-color: #171515;
+        min-height: 550px;
+        color: #fff;
+        background-image: url(/images/general/bg-footer.png);
+        background-position: left top;
+        background-repeat: no-repeat;
+      }
+
+      footer ul {
+        list-style: none;
+        margin: 0;
+        padding: 0;
+        font-family:'Lora';
+      }
+      footer ul li a {
+        font-family: 'Lora';
+        font-weight: 300;
+        font-style: normal;
+        font-size: 14px;
+        color: #fff;
+        line-height: 28px;
+        text-decoration:none;
+      }
+      footer ul li a:hover {
+        color: #0fbbd4;
+      }
+      @media (max-width: 768px) {
+        footer ul li a {
+          display: block;
+        }
+      }
+      footer .col-1 {
+        width: 65%;
+        float: left;
+      }
+      @media (max-width: 999px) {
+        footer .col-1 {
+          width: 100%;
+        }
+      }
+      @media (max-width: 425px) {
+        footer .col-1 {
+          display: none;
+        }
+      }
+      footer .col-1 .menu {
+        width: 33%;
+        height: 290px;
+        float: left;
+        padding: 15px 15px 15px 25px;
+        border-right: 1px solid #414141;
+      }
+      footer .col-1 .menu.last {
+        border: none;
+      }
+      footer .col-1 .menu h5 {
+        font-size: 14px;
+        text-transform: uppercase;
+      }
+      footer .col-1 .menu h5.sitios {
+        color: #ff7366;
+      }
+      footer .col-1 .menu h5.preguntas {
+        color: #ff7366;
+      }
+      footer .col-1 .menu h5.informacion {
+        color: #17a5b9;
+      }
+      footer .col-1 .menu a.btn {
+        margin-top: 20px;
+      }
+      footer .col-1 address {
+        margin-top: 60px;
+        font-family: 'Lora';
+        font-weight: 300;
+        font-style: normal;
+        font-size: 13px;
+        color: #fff !important;
+      }
+      @media (max-width: 999px) {
+        footer .col-1 address {
+          text-align: center;
+          margin-top: 30px;
+        }
+      }
+      @media (max-width: 768px) {
+        footer .col-1 address {
+          margin-top: 68px;
+        }
+      }
+      footer .col-2 {
+        width: 35%;
+        float: right;
+        font-family:'Lora';
+      }
+      @media (max-width: 999px) {
+        footer .col-2 {
+          width: 100%;
+        }
+      }
+      footer .col-2 .links {
+        width: 340px;
+        padding: 15px 25px 17px 0;
+        float: right;
+        border-bottom: 1px solid #414141;
+        font-family:'Lora';
+      }
+      @media (max-width: 999px) {
+        footer .col-2 .links {
+          width: 100%;
+        }
+      }
+      @media (max-width: 999px) {
+        footer .col-2 .links.telefonos a{
+          width: 300px;
+          margin: 0 auto;
+          float: none;
+        }
+      }
+      @media (max-width: 425px) {
+        footer .col-2 .links.telefonos
+          display: none;
+        }
+      }
+
+      footer .col-2 .links.fonomaipu
+        padding: 22px 15px 22px 0;
+      }
+      @media (max-width: 999px) {
+        footer .col-2 .links.fonomaipu a{
+          width: 300px;
+          margin: 0 auto;
+          float: none;
+        }
+      }
+      footer .col-2 .links.social {
+        border: none;
+        display: flex;
+        justify-content: space-around;
+      }
+      @media (max-width: 999px) {
+        footer .col-2 .links.social {
+          width: 80%;
+          margin: 0 auto;
+          float: none;
+        }
+      }
+      footer .col-2 .links.social a {
+        float: none !important;
+      }
+
+      footer .col-2 .links a {
+        float: right;
+        display: block;
+      }
