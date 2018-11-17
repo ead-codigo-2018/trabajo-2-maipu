@@ -18,11 +18,10 @@ h5{
 }
 
 /*------BARRA DE NAVEGACIÓN------*/
-      hr {
-        width: 100%;
-        margin: 15px 0;
-        border-color: #e5e5e5;
+      h1 {
+        float:left;
       }
+
       .container {
         width: 100%;
         max-width: 1232px;
