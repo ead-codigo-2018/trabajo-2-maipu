@@ -52,7 +52,12 @@ h6 {
           width: 1400px;
         }
 
-        ul {
+        .nav{
+    width:1400px;
+
+    }
+
+        .nav ul {
           list-style: none;
         }
 
@@ -60,6 +65,7 @@ h6 {
           background-color: #000;
           color:#fff;
           text-decoration: none;
+          text-align:center;
           padding: 10px 15px;
           width: 310px;
           display: block;
@@ -81,7 +87,7 @@ h6 {
 
         .nav li:hover > ul{
           display: block;
-        }              
+        }
 
       footer {
         padding-top: 50px;
@@ -280,3 +286,4 @@ h6 {
         margin-left: -76px;
         z-index: 999;
       }
+
