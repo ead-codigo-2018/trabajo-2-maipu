@@ -18,15 +18,16 @@ h5{
 }
 
 /*------BARRA DE NAVEGACIÓN------*/
-      h1 {
-        float:left;
+      hr {
+        width: 100%;
+        margin: 15px 0;
+        border-color: #e5e5e5;
       }
-
       .container {
         width: 100%;
         max-width: 1232px;
-        margin:10px;
-        padding:10px;
+        margin:15px;
+        padding:15px;
       }
 
       .clearfix{
@@ -86,22 +87,9 @@ h5{
 
         /*------SLIDER------*/
 
-        /*!
-         * Start Bootstrap - Full Slider (https://startbootstrap.com/template-overviews/full-slider)
-         * Copyright 2013-2017 Start Bootstrap
-         * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-full-slider/blob/master/LICENSE)
-         */
 
-        .carousel-item {
-          height: 100vh;
-          min-height: 300px;
-          background: no-repeat center center scroll;
-          -webkit-background-size: cover;
-          -moz-background-size: cover;
-          -o-background-size: cover;
-          background-size: cover;
-        }
-        
+        /*------FIN SLIDER------*/
+
 
         /*------FOOTER------*/
 
