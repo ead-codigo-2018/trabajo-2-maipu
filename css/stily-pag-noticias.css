@@ -1,0 +1,41 @@
+/*Estilo página noticias */
+
+
+
+.titulo-pagina{
+	padding:15px;
+}
+
+.noticias-fila1{
+	width:1151px;
+	height:428px;
+	padding:15px;
+	margin:0 auto;
+}
+.noticias-fila1 .contenedor-noticias .cont-img-not-1{
+	width:663px;
+	height:350px;
+	overflow:hidden;
+}
+.noticias-fila1 .contenedor-noticias .cont-img-not-1 img{
+	width:100%;
+	height:100%;
+}
+.noticias-fila1 h4{
+	font-size:32px;
+}
+.noticias-fila-2{
+	width:1151px;
+	height:428px;
+	padding:15px;
+	margin:0 auto;
+}
+.noticias-fila-2 .cont-img-not-2{
+	width:100%;
+	height:300px;
+	overflow:hidden;
+}
+.noticias-fila-2 .cont-img-not-2 img{
+	width:100%;
+	height:100%;	
+}
