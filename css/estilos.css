@@ -17,276 +17,109 @@ h5{
   padding:40px;
 }
 
+.row{
+margin:30px;
+}
+
 /*------BARRA DE NAVEGACIÓN------*/
-      hr {
+.navbar-nav{
+	width:100%;
+}
+
+.navbar-nav li{
+	width:16.66%;
+	border-left:1px solid #666;
+	border-right:1px solid #666;
+	text-align:center;
+}
+
+/*-----FIN NAVEGACIÓN-----*/
+
+        /*-----NOTICIAS IMPORTANTES-----*/
+      .row .col-12 col-md-4 noticias{
+        width: 200px;
+        height: 200px;
+        margin: 21px;
+      }
+        /*-----FIN IMPORTANTES-----*/
+
+        /*-----ATAJOS-----*/
+        .marco-cuadrado{
+          width: 150px;
+          height: 150px;
+          margin:18px;
+          border-radius: 150px;
+        }
+
+        .marco-cuadrado img{
+          width: 100%;
+          height:100%;
+        }
+        /*-----FIN ATAJOS-----*/
+
+        /*------CATEGORIAS-----*/
+      .marco-redondo{
+        width:150px;
+        height:150px;
+        margin: 18px;
+        border-radius:100px;
+        overflow: hidden;
+      }
+
+      .marco-redondo img{
         width: 100%;
-        margin: 15px 0;
-        border-color: #e5e5e5;
+        height: 100%;
       }
-      .container {
-        width: 100%;
-        max-width: 1232px;
-        margin:15px;
-        padding:15px;
-      }
-
-      .clearfix{
-        clear:left;
-      }
-
-      .b{
-        font-family:'Lora', sans-serif;
-
-      }
-
-        h2 {
-          text-align: right;
-        }
-
-        #header {
-          margin:auto;
-          width: 1400px;
-        }
-
-        .nav{
-    width:100%;
-
-    }
-
-        .nav ul {
-          list-style: none;
-        }
-
-        .nav li a {
-          background-color: #000;
-          color:#fff;
-          text-decoration: none;
-          text-align:center;
-          padding: 10px 15px;
-          width: 310px;
-          display: block;
-        }
-
-        .nav li a:hover {
-          background-color: #434343;
-        }
-
-        .nav > li{
-          float: left;
-        }
-
-        .nav li ul{
-          display:none;
-          position: absolute;
-          min-width: 140px;
-        }
-
-        .nav li:hover > ul{
-          display: block;
-        }
-
-        /*------SLIDER------*/
-
-
-        /*------FIN SLIDER------*/
-
+      /*------FIN CATEGORIAS------*/
 
         /*------FOOTER------*/
+        footer {
+          padding-top: 50px;
+          background-color: #0c3d59;
+          min-height: 520px;
+          color: #fff;
+          background-image: url(/images/general/bg-footer.png);
+          background-position: left top;
+          background-repeat: no-repeat;
+        }
 
-      footer {
-        padding-top: 50px;
-        background-color: #171515;
-        min-height: 550px;
-        color: #fff;
-        background-image: url(/images/general/bg-footer.png);
-        background-position: left top;
-        background-repeat: no-repeat;
-      }
-
-      footer ul {
-        list-style: none;
-        margin: 0;
-        padding: 0;
-        font-family:'Lora', sans-serif;
-      }
-      footer ul li a {
-        font-family:'Lora', sans-serif;
-        font-weight: 300;
-        font-style: normal;
-        font-size: 14px;
-        color: #fff;
-        line-height: 28px;
-        text-decoration:none;
-        padding:40px;
-      }
-      footer ul li a:hover {
-        color: #0fbbd4;
-      }
-      @media (max-width: 768px) {
+        footer ul {
+          list-style: none;
+          margin: 0;
+          padding: 0;
+          font-family:'Lora', sans-serif;
+        }
         footer ul li a {
-          display: block;
+          font-family:'Lora', sans-serif;
+          font-weight: 300;
+          font-style: normal;
+          font-size: 14px;
+          color: #fff;
+          line-height: 28px;
+          text-decoration:none;
+          padding:40px;
         }
-      }
-      footer .col-1 {
-        width: 65%;
-        float: left;
-      }
-      @media (max-width: 999px) {
-        footer .col-1 {
-          width: 100%;
+        footer ul li a:hover {
+          color: #0fbbd4;
         }
-      }
-      @media (max-width: 425px) {
-        footer .col-1 {
-          display: none;
-        }
-      }
-      footer .col-1 .menu {
-        width: 33%;
-        height: 290px;
-        float: left;
-        padding: 15px 15px 15px 25px;
-        border-right: 1px solid #414141;
-      }
-      footer .col-1 .menu.last {
-        border: none;
-      }
-      footer .col-1 .menu h5 {
-        font-size: 14px;
-        text-transform: uppercase;
-      }
-      footer .col-1 .menu h5.sitios {
-        color: #ff7366;
-      }
-      footer .col-1 .menu h5.preguntas {
-        color: #ff7366;
-      }
-      footer .col-1 .menu h5.informacion {
-        color: #17a5b9;
-      }
-      footer .col-1 .menu a.btn {
-        margin-top: 20px;
-      }
-      footer .col-1 address {
-        margin-top: 60px;
-        font-family:'Lora', sans-serif;
-        font-weight: 300;
-        font-style: normal;
-        font-size: 13px;
-        color: #fff !important;
-      }
-      @media (max-width: 999px) {
-        footer .col-1 address {
-          text-align: center;
-          margin-top: 30px;
-        }
-      }
-      @media (max-width: 768px) {
-        footer .col-1 address {
-          margin-top: 68px;
-        }
-      }
-      footer .col-2 {
-        width: 35%;
-        float: right;
-        font-family:'Lora', sans-serif;
-      }
-      @media (max-width: 999px) {
-        footer .col-2 {
-          width: 100%;
-        }
-      }
-      footer .col-2 .links {
-        width: 340px;
-        padding: 15px 25px 17px 0;
-        float: right;
-        border-bottom: 1px solid #414141;
-        font-family:'Lora', sans-serif;
-      }
-      @media (max-width: 999px) {
-        footer .col-2 .links {
-          width: 100%;
-        }
-      }
-      @media (max-width: 999px) {
-        footer .col-2 .links.telefonos a{
-          width: 300px;
-          margin: 0 auto;
-          float: none;
-        }
-      }
-      @media (max-width: 425px) {
-        footer .col-2 .links.telefonos
-          display: none;
-        }
+  	  .menu-footer{
+  		width: 33%;
+  		height: 290px;
+  		float: left;
+  		padding: 15px 15px 15px 25px;
+  		border-right: 1px solid #414141;
+  	  }
+  	  .menu-footer h5{
+  		  color: #81F7F3;
+  		  font-size: 14px;
+  	  }
+  	  footer address{
+  		margin-top: 60px;
+  		font-family: 'Lora', sans-serif;
+  		font-weight: 300;
+  		font-style: normal;
+  		font-size: 13px;
+  		color: #A4A4A4 !important;
       }
 
-      footer .col-2 .links.fonomaipu
-        padding: 22px 15px 22px 0;
-      }
-      @media (max-width: 999px) {
-        footer .col-2 .links.fonomaipu a{
-          width: 300px;
-          margin: 0 auto;
-          float: none;
-        }
-      }
-      footer .col-2 .links.social {
-        border: none;
-        display: flex;
-        justify-content: space-around;
-      }
-      @media (max-width: 999px) {
-        footer .col-2 .links.social {
-          width: 80%;
-          margin: 0 auto;
-          float: none;
-        }
-      }
-      footer .col-2 .links.social a {
-        float: none !important;
-      }
-
-      footer .col-2 .links a {
-        float: right;
-        display: block;
-      }
-      /* Tooltip Top */
-      a.tooltips-top {
-        position: relative;
-        display: inline;
-      }
-      a.tooltips-top span {
-        position: absolute;
-        width: 200px;
-        padding: 0 10px;
-        color: #FFFFFF;
-        background: #000000;
-        height: 27px;
-        line-height: 27px;
-        text-align: center;
-        display: none;
-        border-radius: 6px;
-      }
-      a.tooltips-top span:after {
-        content: '';
-        position: absolute;
-        top: 100%;
-        left: 50%;
-        margin-left: -8px;
-        width: 0;
-        height: 0;
-        border-top: 8px solid #000000;
-        border-right: 8px solid transparent;
-        border-left: 8px solid transparent;
-      }
-      a:hover.tooltips-top span {
-        display: block;
-        opacity: 0.7;
-        -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=70)";
-        filter: alpha(opacity=70);
-        bottom: 30px;
-        left: -52%;
-        margin-left: -76px;
-        z-index: 999;
-      }
+      /*------FIN FOOTER------*/
