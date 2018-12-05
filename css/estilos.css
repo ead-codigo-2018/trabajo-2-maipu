@@ -205,8 +205,8 @@ display: none!important;
 /*------FIN CATEGORIAS------*/
 /*-------------------- fin INDEX --------------------*/
 
-/*------------------- BUSCADOR DE BARRIOS ------------------*/
 
+/*------------------- BUSCADOR DE BARRIOS ------------------*/
 .container-buscador h1 {
   margin-top: 20px;
   margin-bottom: 30px;
@@ -219,10 +219,9 @@ display: none!important;
 }
 
 h1{
-  padding: 60px;
+  padding: 10px;
   font-family: 'Lato', sans-serif;
   font-weight: bold;
-  text-align: center;
 }
 
 h2 {
@@ -281,7 +280,7 @@ iframe {
   margin-right: 0.5rem;
   color:#00B8FF;
 }
-
+/*--------------- fin BUSCADOR DE BARRIOS ---------------*/
 
 
 
@@ -291,6 +290,7 @@ iframe {
   margin-bottom: 200px;
 }
 /*-------------------- fin GESTIÓN --------------------*/
+
 
 
 /*-------------------- NOTICIAS --------------------*/
@@ -487,14 +487,6 @@ justify-content: center;
 
 
 /*-------------------- fin NOTICIAS --------------------*/
-
-
-
-
-
-
-
-
 
 
 
